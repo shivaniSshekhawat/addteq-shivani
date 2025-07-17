@@ -22,7 +22,7 @@ A modern React app for comparing smartphones side by side. Built with Vite, Type
    npm run dev
    ```
 4. **Open your browser:**
-   - Visit [http://localhost:3000](http://localhost:8080) (or the port shown in your terminal).
+   - Visit [http://localhost:8080](http://localhost:8080) (or the port shown in your terminal).
 
 ---
 
@@ -75,3 +75,18 @@ You can deploy this project using any static hosting provider that supports Vite
    npm run preview
    ```
 3. **Deploy the contents of the `dist/` folder to your chosen host.**
+
+## Preview
+
+![Phone Comparison Tool Screenshot](./public/1.png)
+![Phone Comparison Tool Screenshot](./public/2.png)
+![Phone Comparison Tool Screenshot](./public/3.png)
+![Phone Comparison Tool Screenshot](./public/4.png)
+![Phone Comparison Tool Screenshot](./public/5.png)
+![Phone Comparison Tool Screenshot](./public/6.png)
+
+## Live Demo
+
+👉 [View the live app here](https://shivanisshekhawat.github.io/addteq-shivani/index.html)
+
+> This project was built as part of a frontend assessment to demonstrate component architecture, clean UI, and React TypeScript proficiency.
