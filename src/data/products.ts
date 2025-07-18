@@ -1,3 +1,4 @@
+import { getImagePath } from "@/utils/getImagPath";
 import { Product } from "../types/product";
 
 export const products: Product[] = [
@@ -5,7 +6,7 @@ export const products: Product[] = [
     id: 1,
     name: "iPhone 15 Pro",
     brand: "Apple",
-    image: "/public/images/phone1.jpeg",
+    image: getImagePath("phone1.jpeg"),
     price: 999,
     features: {
       batteryLife: "23 hours",
