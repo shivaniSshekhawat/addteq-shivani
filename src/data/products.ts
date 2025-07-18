@@ -36,7 +36,7 @@ export const products: Product[] = [
     name: "Pixel 8 Pro",
     brand: "Google",
     image:
-      "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=400&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=400&h=400&fit=crop",
     price: 899,
     features: {
       batteryLife: "24 hours",
