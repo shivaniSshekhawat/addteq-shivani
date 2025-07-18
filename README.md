@@ -50,6 +50,12 @@ A modern React app for comparing smartphones side by side. Built with Vite, Type
 - No backend or API integration is present; all data is handled client-side.
 - The UI components in `src/components/ui/` are based on shadcn-ui and only the ones used in the app are included.
 - The app is intended as a demo or assessment project and is not production-hardened.
+- Image Credits
+  Product images used in this project are sourced from Unsplash under the Unsplash License.
+
+Attribution is not required, but we appreciate the talented photographers whose work makes this demo visually engaging.
+
+If you are one of the photographers and would like your photo credited explicitly, please reach out.
 
 ---
 
