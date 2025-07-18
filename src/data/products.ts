@@ -103,7 +103,7 @@ export const products: Product[] = [
     id: 8,
     name: "Nothing Phone 2",
     brand: "Nothing",
-    image: "/public/images/phone8.jpg",
+    image: `${import.meta.env.BASE_URL}public/images/phone8.jpg`,
     price: 599,
     features: {
       batteryLife: "20 hours",
