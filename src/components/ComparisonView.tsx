@@ -57,6 +57,7 @@ const ComparisonView: React.FC<ComparisonViewProps> = ({
   const screenValues = products.map(p => p.features.screenSize);
   const storageValues = products.map(p => p.features.storage);
   const priceValues = products.map(p => p.price.toString());
+  const cameraValues = products.map(p => p.features.camera);
 
   return (
     <div className="mt-8 animate-fade-in">
@@ -116,7 +117,7 @@ const ComparisonView: React.FC<ComparisonViewProps> = ({
                   <div className="text-lg font-semibold">{product.features.storage}</div>
                 </div>
                 
-                <div className="p-3 rounded-lg border-2 bg-muted border-border">
+                <div className={`p-3 rounded-lg border-2 ${getHighlightClass(product.features.camera, cameraValues)}`}>
                   <div className="font-medium text-sm text-muted-foreground">Camera</div>
                   <div className="text-lg font-semibold">{product.features.camera}</div>
                 </div>
