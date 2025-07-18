@@ -13,7 +13,6 @@ A modern React app for comparing smartphones side by side. Built with Vite, Type
    git clone <YOUR_GIT_URL>
    https://github.com/shivaniSshekhawat/addteq-shivani.git
    cd <YOUR_PROJECT_NAME>
-   cd product-compare
    ```
 2. **Install dependencies:**
    ```sh
